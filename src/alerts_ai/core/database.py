@@ -11,7 +11,7 @@ from sqlalchemy.ext.asyncio import (
 from sqlalchemy import DateTime, func
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 
-from conifers_ai.core.config import settings
+from alerts_ai.core.config import settings
 
 
 engine = create_async_engine(

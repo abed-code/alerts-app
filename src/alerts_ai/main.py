@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from conifers_ai.features.alerts.router import router as alerts_router
+from alerts_ai.features.alerts.router import router as alerts_router
 
 app = FastAPI()
 

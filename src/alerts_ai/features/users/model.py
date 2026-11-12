@@ -2,7 +2,7 @@
 from sqlalchemy import String
 from sqlalchemy.orm import Mapped, mapped_column
 
-from conifers_ai.core.database import AppModel
+from alerts_ai.core.database import AppModel
 
 
 class User(AppModel):

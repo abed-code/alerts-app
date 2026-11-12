@@ -1,5 +1,5 @@
 [project]
-name = "conifers-ai"
+name = "alerts-ai"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -15,7 +15,7 @@ dependencies = [
 ]
 
 [project.scripts]
-conifers-ai = "conifers_ai:main"
+alerts-ai = "alerts_ai:main"
 
 [build-system]
 requires = ["uv_build>=0.13.7,<0.14.0"]
