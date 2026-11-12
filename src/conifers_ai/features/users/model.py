@@ -2,15 +2,12 @@
 from sqlalchemy import String
 from sqlalchemy.orm import Mapped, mapped_column
 
-from conifers_ai.core.database import Base
+from conifers_ai.core.database import AppModel
 
 
-class User(Base):
+class User(AppModel):
     __tablename__ = "users"
 
-    id: Mapped[int] = mapped_column(
-        primary_key=True
-    )
     name: Mapped[str] = mapped_column(
         String(100),
         nullable=False,
