@@ -17,3 +17,7 @@ class User(AppModel):
         unique=True,
         nullable=False,
     )
+    password_hash: Mapped[str] = mapped_column(
+        String(255),
+        nullable=False,
+    )
